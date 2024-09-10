@@ -1,0 +1,44 @@
+name: Docs CI
+
+on: 
+  push:
+    branches: 
+      - '**' # Push events on all branches
+    paths:
+      - 'pagess/**'
+      - 'package*.json'
+      - 'slides.md'
+      - 'netlify*'
+      - '.github/workflows/docs.yml'
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10 including semver
+
+jobs:
+
+  docs:
+    runs-on: ubuntu-22.04
+    name: Build slidev Site
+    if: "!contains(github.event.head_commit.message, 'docs skip')"
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install credentials
+      run: echo https://$GITHUB_OAUTH:@github.com > $HOME/.git-credentials
+      env:
+        GITHUB_OAUTH: ${{ secrets.CR_PAT_WORKFLOW }}
+    - name: Install NPM dependencies
+      run: |
+          npm install
+          npm i -g @slidev/cli
+    - name: Build Site
+      run: |
+          slidev build --base /gmsh-tuto-slides/
+    - name: Deploy
+      if: ${{ github.ref_name == 'main' }}
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
+          clean: true
+          clean-exclude: |
+            .nojekyll

@@ -1,18 +1,21 @@
-# What is Slidev?
+# What is PreProcessing?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+PreProcessing covers
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
+- 📝 **Creation** - focus on the creation of solid modeling of the geometry
+- 🎨 **Loading** - load CAD geometry
+- 🎨 **Reparing** - prepare CAD geometry for meshing
+- 🧑‍💻 **Meshing** - creates mesh for the geometry
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+This is the starting point for the classical pipeline
+
+These operations may be
+
+- difficult (up to several months to get a descent mesh)
+- time and ressources consuming 
+- meshing higly depends on chosen numerical models
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.

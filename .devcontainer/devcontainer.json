@@ -23,7 +23,9 @@
 		"vscode": {
 			"extensions": [
 				"vscode-icons-team.vscode-icons",
-				"antfu.slidev"
+				"antfu.slidev",
+				"bierner.emojisense",
+				"Nuxt.mdc"
 			]
 		}
 	}

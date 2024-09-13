@@ -28,7 +28,7 @@ ARG USER_GID=$USER_UID
 
 RUN apt update && \
     apt -y install openssh-client wget curl findutils jq yq coreutils bash-completion locate apt-file && \
-    apt -y install git git-lfs git emacs-nox vim-nox && \
+    apt -y install git git-lfs git emacs-nox vim-nox file && \
     updatedb && \
     apt-file update
 

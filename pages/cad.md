@@ -5,32 +5,56 @@ image: https://cover.sli.dev
 # Solid Modeling
 
 Covers:
-
 - Creation of Geometry
 - Load a Geometry
 - Repair/Transform a Geometry
 
 Ecosystem:
-
 - Software
-- Formats
+  - commercial
+  - opensource
+- Formats:
+  - STL
+  - STEP
+  - Brep
+
+<!--more-->
+add images with logos for software
+add references for format
 
 ---
 layout: image-right
 image: https://cover.sli.dev
 level: 2
+outline: deep
 ---
 
-# Solid modeling
-
-Approaches to create geometries
+# Main Approaches
 
 - Bottom-up,
 - Constructive Solid Geometry,
 - Boundary representation
 
+<!--
+```md
 ---
-level: 2
+src: ./cover.md
+background: https://sli.dev/bar.png // [!code highlight]
+class: text-center
+---
+```
+-->
+
+<!-- not supported?
+::: tip
+The paths are resolved relative to the `snippets` directory. And the names of the deps should be exactly the same as the imported ones in the code.
+:::
+-->
+
+---
+layout: image-right
+image: https://cover.sli.dev
+level: 3
 ---
 # Bottom-Up Approach
 
@@ -40,30 +64,51 @@ level: 2
   - Curve Loops,
   - Rotation, Translation
 - Define Volumes:
-  - same of for surfaces
+  - Surfaces Loops
 
-Practice with Gmsh
+Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/)
 
-[Learn more](https://gmsh.dev/)
-
-
+<!--more-->
+add image for sketch geometry
+add working about orientation- 
 ---
-level: 2
+layout: image-right
+image: /img/Csg_tree.png
+backgroundSize: 90% 80%
+level: 3
 ---
 # CGS Approach
 
-Perform boolean operations 
+- Combine simple objects
+- Use Perform boolean operations 
+  - Union
+  - Difference
+  - Intersection
 
-Practice with Gmsh
 
-[Learn more](https://gmsh.dev/)
+Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/)
+
+<!--more-->
+notes on algo
 
 ---
-level: 2
+level: 3
 ---
 # Boundary Representation Approach
 
-On top of CGS, ...
+- A solid is a collection of connected surfaces
+- Extend CGS
+  - additional operations such as
+    - extrusion
+    - chamfer
+    - ...
 
+- Main ingredients: 
+  - NURBS
+  - [Constraints]
 
+Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/)
 
+<!--more-->
+introduce ruled surface in gmsh
+add references to nurbs

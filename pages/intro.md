@@ -2,26 +2,23 @@
 
 PreProcessing covers
 
-- 📝 **Creation** - focus on the creation of solid modeling of the geometry
-- 🎨 **Loading** - load CAD geometry
-- 🎨 **Reparing** - prepare CAD geometry for meshing
-- 🧑‍💻 **Meshing** - creates mesh for the geometry
+- 📝 **Creation** - focus on solid modeling
+- 🎨 **Loading** - load geometry
+- 🎨 **Repairing** - prepare geometry for meshing
+- 🧑‍💻 **Meshing** - the geometry
 <br>
 <br>
-
-This is the starting point for the classical pipeline
 
 These operations may be
 
-- difficult (up to several months to get a descent mesh)
-- time and ressources consuming 
-- meshing higly depends on chosen numerical models
+- 🈂️ difficult (up to several months to get a descent mesh)
+- time and resources consuming 
+- highly depends on chosen numerical models
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/features/slide-scope-style
 -->
-
 <style>
 h1 {
   background-color: #2B90B6;
@@ -33,6 +30,26 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+::right::
+
+<!--
+```mermaid {theme: 'neutral', scale: 0.8}
+graph TD
+B[Text] --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
+-->
+
+```mermaid {theme: 'neutral', scale: 0.8}
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[<img src='https://iconscout.com/ms-icon-310x310.png' width='40' height='40' />]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
 
 <!--
 Here is another comment.

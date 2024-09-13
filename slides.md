@@ -7,7 +7,7 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: PrePost Processing for Scientific Computing
 info: |
-  ## Slidev Starter Template
+  ## Gmsh Tutorial
   PreProcessing
 
   Learn more at [Sli.dev](https://sli.dev)
@@ -20,6 +20,10 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+# download remote assets in local using vite-plugin-remote-assets, can be boolean, 'dev' or 'build'
+remoteAssets: false
+# controls whether texts in slides are selectable
+selectable: true
 ---
 
 # PrePost Processing for Scientific Computing
@@ -48,11 +52,29 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 
 ---
+layout: two-cols
+layoutClass: gap-16
 transition: fade-out
 src: ./pages/intro.md
 hide: false
 ---
 
+---
+layout: two-cols
+layoutClass: gap-16
+---
+# A concrete example
+
+* EDP
+* Pre-processing
+  * define geometry
+  * mesh with markers for
+    * surface
+    * lines for boundary conditions
+
+::right::
+
+sketch of geometry
 
 ---
 transition: slide-up

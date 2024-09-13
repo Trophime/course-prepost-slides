@@ -1,18 +1,23 @@
 /* ./setup/shiki.ts */
 import { defineShikiSetup } from '@slidev/types'
-import customTheme from './catppuccin-frappe.json'
 import gmshGrammar from './gmsh.tmLanguage.json'
+import bashGrammar from './shell-unix-bash.tmLanguage.json'
+import mdcGrammar from './mdc.tmLanguage.json'
 
 export default defineShikiSetup(() => {
     return {
-        themes: {
-            dark: customTheme,
-            light: 'min-light',
-        },
         langs: [
+            {
+                name: 'bash',
+                ...bashGrammar
+            },
             {
                 name: 'gmsh',
                 ...gmshGrammar
+            },
+            {
+                name: 'mdc',
+                ...mdcGrammar
             },
             'js',
             'typescript',

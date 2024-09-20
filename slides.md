@@ -60,8 +60,16 @@ hide: false
 ---
 
 ---
+transition: slide-up
+src: ./pages/goals.md
+hide: false
+---
+
+---
 layout: two-cols
 layoutClass: gap-16
+level: 2
+hideInToc: true
 ---
 # A concrete example
 
@@ -76,21 +84,17 @@ layoutClass: gap-16
 
 sketch of geometry
 
----
-transition: slide-up
-src: ./pages/goals.md
-hide: false
----
 
 
 ---
 layout: two-cols
 layoutClass: gap-16
+hideInToc: true
 ---
 
 # Table of contents
 
-<Toc maxDepth="3"></Toc>
+<Toc maxDepth="2"></Toc>
 
 
 ---

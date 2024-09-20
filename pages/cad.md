@@ -14,13 +14,29 @@ Ecosystem:
   - commercial
   - opensource
 - Formats:
-  - STL
   - STEP
   - Brep
+  - STL 
 
 <!--more-->
 add images with logos for software
 add references for format
+
+---
+layout: image-right
+image: https://cover.sli.dev
+level: 2
+---
+
+# Practical point of view
+
+- Build from scratch
+- Build from CAD drawing
+- Use an existing  CAD 
+
+note on cad drawing
+add example provide by Romain
+
 
 ---
 layout: image-right
@@ -56,6 +72,7 @@ layout: image-right
 image: https://cover.sli.dev
 level: 3
 ---
+
 # Bottom-Up Approach
 
 - Create Points,
@@ -74,7 +91,7 @@ add working about orientation-
 ---
 layout: image-right
 image: /img/Csg_tree.png
-backgroundSize: 90% 80%
+backgroundSize: 90% 70%
 level: 3
 ---
 # CGS Approach

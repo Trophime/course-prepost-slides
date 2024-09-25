@@ -9,5 +9,5 @@ The main objective is to give an overview:
 
 To practice, using:
 
-- Gmsh 
-- Salome
+- Gmsh: <img src="/img/Gmsh.png" width=30 height=30/> 
+- Salome: <img src="/img/Salome.jpg" width=30 height=30/>

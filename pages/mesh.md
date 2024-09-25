@@ -1,6 +1,7 @@
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /img/mesh_soft.png
+backgroundSize: 100% 70%
 ---
 # Meshing
 
@@ -16,8 +17,7 @@ Ecosystem:
 - Formats
 
 <!--more-->
-add images with logos for software
-insist that mesh is connected with numerical method used
+Note: Mesh is highly depend numerical method used and the problem to be solved
 
 ---
 layout: image-right
@@ -28,10 +28,15 @@ level: 2
 # Definitions
 
 * What is a mesh?
-* Vertex, Edge, Face, Element
-* Taxonomy
+* Definitions
+  - Vertex, 
+  - Edge, 
+  - Face, 
+  -Element
 * Nodes
 
+<!-- notes -->
+Euler Poincare
 
 ---
 mdc: true
@@ -46,7 +51,7 @@ image: https://cover.sli.dev
 level: 2
 ---
 
-# Types
+# Mesh Taxonomy
 
 - **Structured** : grid-like mesh
 - **UnStructured** : triangular/tetrahedral mesh
@@ -57,13 +62,24 @@ level: 2
 level: 2
 ---
 
-# Algorithms
+# Main Algorithms
 
-## Structure
-## UnStructure
-## Hybrid
-## Mixte
+- Structured Mesh
+- UnStructured Mesh
 
+<!-- notes -->
+from F. Ledoux presentation
 
+---
+level: 2
+---
 
+# Mesh Adaptation
+
+- Notion of Distance
+- Metric
+- Examples
+
+<!-- notes -->
+from gmsh and mmg 
 

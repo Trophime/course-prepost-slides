@@ -11,3 +11,9 @@ components.d.ts
 slides-export
 
 original
+guide
+tests
+*.codegroup
+*.old
+
+log

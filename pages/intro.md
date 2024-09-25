@@ -11,9 +11,9 @@ PreProcessing covers
 
 These operations may be
 
-- 🈂️ difficult (up to several months to get a descent mesh)
-- time and resources consuming 
-- highly depends on chosen numerical models
+- Difficult (up to several months)
+- CPU time and resources consuming 
+- Highly depends on chosen numerical models
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.

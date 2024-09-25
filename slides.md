@@ -56,7 +56,7 @@ layout: two-cols
 layoutClass: gap-16
 transition: fade-out
 src: ./pages/intro.md
-hide: false
+hideInToc: false
 ---
 
 ---
@@ -73,17 +73,45 @@ hideInToc: true
 ---
 # A concrete example
 
-* EDP
+* Fluid Structure problem
 * Pre-processing
-  * define geometry
-  * mesh with markers for
-    * surface
-    * lines for boundary conditions
+  * Define geometry
+  * Mesh with markers for
+    * Surfaces
+    * Lines for boundary conditions
+
+* [Reference](https://docs.feelpp.org/toolboxes/latest/fsi/TurekHron/index.html)
 
 ::right::
+<img src="/img/TurekHronFSIGeometry.png" >
+Sketch of the geometry
 
-sketch of geometry
+<img src="/img/gmsh-fsi.png" >
+View of the mesh with markers
 
+---
+layout: two-cols
+layoutClass: gap-16
+level: 2
+hideInToc: true
+---
+# A concrete example
+
+* Fluid Structure problem
+* Pre-processing
+  * Define geometry
+  * Mesh with markers for
+    * Surfaces
+    * Lines for boundary conditions
+
+* [Reference](https://docs.feelpp.org/toolboxes/latest/fsi/TurekHron/index.html)
+
+::right::
+<img src="/img/TurekHronFSIGeometry.png" >
+Sketch of the geometry
+
+<img src="/img/gmsh-fsi-markers.png" >
+Markers
 
 
 ---

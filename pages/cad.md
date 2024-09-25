@@ -1,7 +1,10 @@
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /img/cad_soft.png
+backgroundSize: 100% 70%
 ---
+
+
 # Solid Modeling
 
 Covers:
@@ -24,7 +27,8 @@ add references for format
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /img/cad_drawing.png
+backgroundSize: 100% 60%
 level: 2
 ---
 
@@ -51,25 +55,11 @@ outline: deep
 - Constructive Solid Geometry,
 - Boundary representation
 
-<!--
-```md
----
-src: ./cover.md
-background: https://sli.dev/bar.png // [!code highlight]
-class: text-center
----
-```
--->
-
-<!-- not supported?
-::: tip
-The paths are resolved relative to the `snippets` directory. And the names of the deps should be exactly the same as the imported ones in the code.
-:::
--->
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /img/orientation.png
+backgroundSize: 100% 70%
 level: 3
 ---
 
@@ -83,11 +73,9 @@ level: 3
 - Define Volumes:
   - Surfaces Loops
 
-Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/)
+- Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/) <!-- <img src="/Gmsh.png" /> -->
 
-<!--more-->
-add image for sketch geometry
-add working about orientation- 
+
 ---
 layout: image-right
 image: /img/Csg_tree.png
@@ -103,10 +91,13 @@ level: 3
   - Intersection
 
 
-Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/)
+- Practice with:
+  -  [<img src="/img/Gmsh.png" width=30 height=30/>](https://trophime.github.io/gmsh-tuto/) 
+  -  [<img src="/img/Salome.jpg" width=30 height=30/>](https://trophime.github.io/salome-tutorial/)
 
 <!--more-->
-notes on algo
+- References:
+  - Algo: wikipedia
 
 ---
 level: 3
@@ -124,8 +115,11 @@ level: 3
   - NURBS
   - [Constraints]
 
-Practice with [Gmsh](https://trophime.github.io/gmsh-tuto/)
+- Practice with:
+  -  [<img src="/img/Gmsh.png" width=30 height=30/>](https://trophime.github.io/gmsh-tuto/) 
+  -  [<img src="/img/Salome.jpg" width=30 height=30/>](https://trophime.github.io/salome-tutorial/)
 
 <!--more-->
-introduce ruled surface in gmsh
-add references to nurbs
+- References:
+  - Nurbs
+  - Gmsh: use ruled surface

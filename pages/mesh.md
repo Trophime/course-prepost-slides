@@ -89,12 +89,25 @@ to <img src="/img/ledoux1/pg_0055.pdf.png" scale='80' />
 
 ---
 level: 2
+mdc: true
 ---
 
 # Mesh in practise
 
-<img src="/img/Gmsh.png" width=20>
-<img src="/img/Salome.jpg" width=20>
+|                  | <img src="/img/Gmsh.png" width=20> | <img src="/img/Salome.jpg" width=20> |
+| -------------    | ---------------------------------- | -------------------------------------|
+| **structured**   | ✅ <code>Transfinite</code>        |   ✅ <code>gmsh</code> <code>netgen</code>  | 
+| Quad/Hexa        | ✅ <code>Recombine</code>          |   ✅ <code>gmsh</code> <code>meshgems hexotic</code>  | 
+| **unstructured** |                                    |                                      |
+| QuadTree/Octree  | 🔴                                 |   🔴                                   |
+| Frontal          | ✅ <code>Frontal-Delaunay</code>   |   ✅ <code>gmsh</code> <code>meshgems</code> <code>netgen</code>            |
+| Delaunay         | ✅ <code>Delaunay</code>           |   ✅ <code>gmsh</code> <code>meshgems</code> <code>netgen</code>             |
+
+
+* 👷 Structured mesh requires that geometry is splitted in Quadrangle / Hexahedral patches
+* ⚠️ MeshGems plugin requires a valid licence
+
+<!-- https://chi-tech.github.io/d4/db9/_gmsh_example_01.html example for gmsh -->
 
 ---
 level: 2

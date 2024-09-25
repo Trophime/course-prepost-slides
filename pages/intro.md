@@ -3,17 +3,17 @@
 PreProcessing covers
 
 - 📝 **Creation** - focus on solid modeling
-- 🎨 **Loading** - load geometry
-- 🎨 **Repairing** - prepare geometry for meshing
-- 🧑‍💻 **Meshing** - the geometry
+- 📁 **Loading** - load geometry
+- ✂️ **Repairing** - prepare geometry for meshing
+- 🚀 **Meshing** - the geometry
 <br>
 <br>
 
 These operations may be
 
-- Difficult (up to several months)
-- CPU time and resources consuming 
-- Highly depends on chosen numerical models
+- 📣 Difficult (up to several months)
+- ⌛ CPU time and resources consuming 
+- ⚠️ Highly depends on chosen numerical models
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -33,24 +33,10 @@ h1 {
 
 ::right::
 
-<!--
-```mermaid {theme: 'neutral', scale: 0.8}
+```mermaid {theme: 'neutral', scale: 1.0}
 graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
--->
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[<img src='https://iconscout.com/ms-icon-310x310.png' width='40' height='40' />]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+      A(Geometry <img src='/img/helix-cad.png' />) -->|Repairing/Defeaturing| B(Mesh)
+      B -->|Solve| C(PostProcessing <img src='/img/helix-post.png' />)
+      C -->|Adapt/Move| B
 ```
 
-<!--
-Here is another comment.
--->

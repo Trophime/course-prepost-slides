@@ -1,23 +1,24 @@
 ---
 layout: image-right
 image: /img/mesh_soft.png
-backgroundSize: 100% 70%
+backgroundSize: 100% 75%
 ---
 # Meshing
 
 Covers:
-
 - Mesh Generation
 - Adapt Mesh
 - Moving Mesh
 
 Ecosystem:
-
 - Software
-- Formats
+- Formats: msh (Gmsh), med (Salome), ...
+  
 
 <!--more-->
-Note: Mesh is highly depend numerical method used and the problem to be solved
+⚠️ Mesh highly depends on:
+ - numerical method used
+ - the problem to be solved
 
 ---
 layout: image-right
@@ -39,11 +40,11 @@ level: 2
 Euler Poincare
 
 ---
-mdc: true
 level: 2
 ---
 
-![](/img/periodic_table_of_the_finite_elements.png){width=90%}
+<img src="/img/periodic_table_of_the_finite_elements.png" />
+
 
 ---
 layout: image-right
@@ -64,11 +65,36 @@ level: 2
 
 # Main Algorithms
 
-- Structured Mesh
-- UnStructured Mesh
+- 🔲 Structured Mesh
+- 🔗 [UnStructured Mesh](https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf): 
+  - QuadTree / Octree
+  - Front
+  - Delaunay
 
 <!-- notes -->
-from F. Ledoux presentation
+📓 next slides: ©️  F. Ledoux (CEA)
+
+---
+layout: iframe
+
+# the web page source
+url: https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf
+---
+
+<!---
+note from <img src="/img/ledoux1/pg_0008.pdf.png" scale='80' />
+to <img src="/img/ledoux1/pg_0055.pdf.png" scale='80' />
+-->
+
+
+---
+level: 2
+---
+
+# Mesh in practise
+
+<img src="/img/Gmsh.png" width=20>
+<img src="/img/Salome.jpg" width=20>
 
 ---
 level: 2

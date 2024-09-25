@@ -22,7 +22,6 @@ Ecosystem:
   - STL 
 
 <!--more-->
-add images with logos for software
 add references for format
 
 ---
@@ -38,8 +37,6 @@ level: 2
 - Build from CAD drawing
 - Use an existing  CAD 
 
-note on cad drawing
-add example provide by Romain
 
 
 ---
@@ -104,20 +101,14 @@ level: 3
 ---
 # Boundary Representation Approach
 
-- A solid is a collection of connected surfaces
-- Extend CGS
-  - additional operations such as
-    - extrusion
-    - chamfer
-    - ...
-
-- Main ingredients: 
-  - NURBS
-  - [Constraints]
+- A solid == collection of connected surfaces (NURBS)
+- Extend CGS: additional operations such as extrusion, chamfer, ...
+- [Constraints]
 
 - Practice with:
   -  [<img src="/img/Gmsh.png" width=30 height=30/>](https://trophime.github.io/gmsh-tuto/) 
   -  [<img src="/img/Salome.jpg" width=30 height=30/>](https://trophime.github.io/salome-tutorial/)
+
 
 <!--more-->
 - References:

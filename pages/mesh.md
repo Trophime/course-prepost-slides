@@ -66,13 +66,20 @@ level: 2
 # Main Algorithms
 
 - 🔲 Structured Mesh
-- 🔗 [UnStructured Mesh](https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf): 
+  - grid-like
+  - elevation
+
+- 🔗 [UnStructured Mesh (Triangle/Tetrahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf): 
   - QuadTree / Octree
   - Front
   - Delaunay
 
+- 🔗 [UnStructured Mesh (Quad/Hexahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux2.pdf): 
+
 <!-- notes -->
 📓 next slides: ©️  F. Ledoux (CEA)
+
+recall fact: 1 billion tetra per minute
 
 ---
 layout: iframe
@@ -92,7 +99,7 @@ level: 2
 mdc: true
 ---
 
-# Mesh in practise
+# Mesh in practice
 
 |                  | <img src="/img/Gmsh.png" width=20> | <img src="/img/Salome.jpg" width=20> |
 | -------------    | ---------------------------------- | -------------------------------------|
@@ -115,10 +122,19 @@ level: 2
 
 # Mesh Adaptation
 
+- Mesh Quality
+
+
+---
+level: 2
+hideInToc: true
+---
+
+# Mesh Adaptation
 - Notion of Distance
 - Metric
 - Examples
 
 <!-- notes -->
-from gmsh and mmg 
+gmsh, salome/meshgems?, salome/homard, salome/mmg 
 

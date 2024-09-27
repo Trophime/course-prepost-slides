@@ -33,8 +33,10 @@ level: 2
   - Vertex, 
   - Edge, 
   - Face, 
-  -Element
+  - Element
 * Nodes
+  - ⚠️ Node != Vertex ⚠️
+  - Node: geom entity attached to DOF
 
 <!-- notes -->
 Euler Poincare
@@ -67,7 +69,7 @@ level: 2
 
 - 🔲 Structured Mesh
   - grid-like
-  - elevation
+  - elevation/rotation ( ⚠️ rotation may lead to **mixte* * mesh )
 
 - 🔗 [UnStructured Mesh (Triangle/Tetrahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf): 
   - QuadTree / Octree
@@ -79,7 +81,7 @@ level: 2
 <!-- notes -->
 📓 next slides: ©️  F. Ledoux (CEA)
 
-recall fact: 1 billion tetra per minute
+🎉 Order of magnitude to recall 1 billion tetra per minute 🎉
 
 ---
 layout: iframe
@@ -104,7 +106,7 @@ mdc: true
 |                  | <img src="/img/Gmsh.png" width=20> | <img src="/img/Salome.jpg" width=20> |
 | -------------    | ---------------------------------- | -------------------------------------|
 | **structured**   | ✅ <code>Transfinite</code>        |   ✅ <code>gmsh</code> <code>netgen</code>  | 
-| Quad/Hexa        | ✅ <code>Recombine</code>          |   ✅ <code>gmsh</code> <code>meshgems hexotic</code>  | 
+| Quad/Hexa        | ✅ <code>Recombine</code>          |   ✅ <code>gmsh</code> <code>meshgems</code> <code> hexotic</code>  | 
 | **unstructured** |                                    |                                      |
 | QuadTree/Octree  | 🔴                                 |   🔴                                   |
 | Frontal          | ✅ <code>Frontal-Delaunay</code>   |   ✅ <code>gmsh</code> <code>meshgems</code> <code>netgen</code>            |
@@ -122,6 +124,8 @@ level: 2
 
 # Mesh Adaptation
 
+- What is a "good" Mesh?
+
 - Mesh Quality
 
 
@@ -131,6 +135,7 @@ hideInToc: true
 ---
 
 # Mesh Adaptation
+
 - Notion of Distance
 - Metric
 - Examples

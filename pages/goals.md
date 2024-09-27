@@ -1,5 +1,3 @@
----
-
 # Goals
 
 The main objective is to give an overview:

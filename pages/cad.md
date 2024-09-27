@@ -98,6 +98,9 @@ level: 3
 <!--References: Algo: wikipedia ?? -->
 
 ---
+layout: image-right
+image: /img/occt-bottle.png
+backgroundSize: 90% 70%
 level: 3
 ---
 # Boundary Representation Approach

@@ -13,7 +13,7 @@ These operations may be
 
 - 📣 Difficult (up to several months)
 - ⌛ CPU time and resources consuming 
-- ⚠️ Highly depends on chosen numerical models
+- ⚠️ Depends on chosen numerical models
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.

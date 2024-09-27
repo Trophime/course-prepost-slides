@@ -107,7 +107,7 @@ hideInToc: true
 * [Reference](https://docs.feelpp.org/toolboxes/latest/fsi/TurekHron/index.html)
 
 ::right::
-<img src="./img/TurekHronFSIGeometry.png" >
+<img src="/img/TurekHronFSIGeometry.png" >
 Sketch of the geometry
 
 <img src="/img/gmsh-fsi-markers.png" >

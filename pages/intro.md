@@ -35,8 +35,8 @@ h1 {
 
 ```mermaid {theme: 'neutral', scale: 1.0}
 graph TD
-      A(Geometry <img src='/img/helix-cad.png' height='80' />) -->|Repairing/Defeaturing| B(Mesh)
-      B -->|Solve| C(PostProcessing <img src='/img/helix-post.png' height='80' />)
+      A(Geometry <img src='/img/helix-cad.png' width='80' height='80' />) -->|Repairing/Defeaturing| B(Mesh)
+      B -->|Solve| C(PostProcessing <img src='/img/helix-post.png'  width='80' height='80' />)
       C -->|Adapt/Move| B
 ```
 

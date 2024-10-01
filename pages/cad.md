@@ -36,13 +36,14 @@ level: 2
 - Build from CAD drawing
 - Use an existing  CAD 
 
+<img src="/img/cube.png" />
 
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /img/helix-cad.png
+backgroundSize: 70% 70%
 level: 2
-outline: deep
 ---
 
 # Main Approaches

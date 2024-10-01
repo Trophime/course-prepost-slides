@@ -1,7 +1,7 @@
 ---
 layout: image-right
 image: /img/mesh_soft.png
-backgroundSize: 100% 75%
+backgroundSize: 95% 75%
 ---
 # Meshing
 
@@ -22,7 +22,8 @@ Ecosystem:
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /img/triangulation.png
+backgroundSize: 95% 70%
 level: 2
 ---
 
@@ -30,16 +31,35 @@ level: 2
 
 * What is a mesh?
 * Definitions
+
   - Vertex, 
   - Edge, 
   - Face, 
   - Element
 * Nodes
   - ⚠️ Node != Vertex ⚠️
-  - Node: geom entity attached to DOF
+  - 💡 Node == geom entity attached to DOF 💡
 
-<!-- notes -->
-Euler Poincare
+---
+layout: image-right
+image: /img/mesh-definitions.png
+backgroundSize: 95% 70%
+level: 2
+---
+
+# Definitions
+
+* What is a mesh?
+* Definitions
+
+  - Vertex, 
+  - Edge, 
+  - Face, 
+  - Element
+* Nodes
+  - ⚠️ Node != Vertex ⚠️
+  - 💡 Node == Entity attached to DOF 💡
+
 
 ---
 level: 2
@@ -50,16 +70,61 @@ level: 2
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: img/ex-grid.png
+backgroundSize: 95% 70%
 level: 2
 ---
 
 # Mesh Taxonomy
 
 - **Structured** : grid-like mesh
-- **UnStructured** : triangular/tetrahedral mesh
+
+---
+layout: image-right
+image: img/ex-unstructured.png
+backgroundSize: 95% 70%
+level: 2
+hideInToc: true
+---
+
+# Mesh Taxonomy
+
+- **Structured** : grid-like mesh
+- **UnStructured** : eg. triangular/tetrahedral mesh
+
+---
+layout: image-right
+image: img/mixtemesh.png
+backgroundSize: 95% 70%
+level: 2
+hideInToc: true
+---
+
+# Mesh Taxonomy
+
+- **Structured** : grid-like mesh
+- **UnStructured** : eg. triangular/tetrahedral mesh
 - **Mixte** : combine several type of elements
 - **Hybrid** : combine "meshes" of different dimensions
+
+
+---
+layout: image-right
+image: img/ex-arm.png
+backgroundSize: 95% 70%
+level: 2
+hideInToc: true
+---
+
+# Mesh Taxonomy
+
+- **Structured** : grid-like mesh
+- **UnStructured** : eg. triangular/tetrahedral mesh
+- **Mixte** : combine several type of elements
+- **Hybrid** : combine "meshes" of different dimensions
+
+- **[non]conformal** : vertices are [not] coincidents
+
 
 ---
 level: 2
@@ -103,10 +168,10 @@ mdc: true
 
 # Mesh in practice
 
-|                  | <img src="/img/Gmsh.png" width=20> | <img src="/img/Salome.jpg" width=20> |
+|                  | [<img src="/img/Gmsh.png" width=20>](https://trophime.github.io/gmsh-tuto/)  | [<img src="/img/Salome.jpg" width=20>](https://trophime.github.io/salome-tutorial/) |
 | -------------    | ---------------------------------- | -------------------------------------|
 | **structured**   | ✅ <code>Transfinite</code>        |   ✅ <code>gmsh</code> <code>netgen</code>  | 
-| Quad/Hexa        | ✅ <code>Recombine</code>          |   ✅ <code>gmsh</code> <code>meshgems</code> <code> hexotic</code>  | 
+| Quad/Hexa        | ✅ <code>Recombine</code>          |   ✅ <code>gmsh</code> <code>meshgems/hexotic</code> <code>hexablock</code> | 
 | **unstructured** |                                    |                                      |
 | QuadTree/Octree  | 🔴                                 |   🔴                                   |
 | Frontal          | ✅ <code>Frontal-Delaunay</code>   |   ✅ <code>gmsh</code> <code>meshgems</code> <code>netgen</code>            |

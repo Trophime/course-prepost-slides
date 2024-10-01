@@ -38,7 +38,7 @@ level: 2
   - Element
 * Nodes
   - ⚠️ Node != Vertex ⚠️
-  - 💡 Node == geom entity attached to DOF 💡
+  - 💡 Node == Entity attached to DOF 💡
 
 ---
 layout: image-right
@@ -184,15 +184,47 @@ mdc: true
 <!-- https://chi-tech.github.io/d4/db9/_gmsh_example_01.html example for gmsh -->
 
 ---
+layout: image-right
+image: img/gmsh-bunny.png
+backgroundSize: 95% 70%
 level: 2
 ---
 
 # Mesh Adaptation
 
-- What is a "good" Mesh?
+* What is a "good" Mesh?
+  * depends on purpose
 
-- Mesh Quality
+* Scientific Computing context
+  * "good" solution
 
+---
+layout: image-right
+image: img/Lshape.png
+hideInToc: true
+backgroundSize: 95% 70%
+level: 2
+---
+
+# Mesh Adaptation
+
+* What is a "good" Mesh?
+  * depends on purpose
+
+* Scientific Computing context
+  * "good" solution
+
+---
+level: 2
+hideInToc: true
+---
+
+# Mesh Quality
+
+<img src="/img/gmsh-xao-hxt.png" />
+
+* several criteria
+  * 
 
 ---
 level: 2

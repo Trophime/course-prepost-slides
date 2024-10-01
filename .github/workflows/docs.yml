@@ -31,7 +31,7 @@ jobs:
           npm i -g @slidev/cli
     - name: Build Site
       run: |
-          perl -pi -e "s|/img/helix|/course-prepost-slides/img/helix|g" pages/intro.md
+          perl -pi -e "s|/img/helix|https\://trophime.github.io/course-prepost-slides/img/helix|g" pages/intro.md
           slidev build --base /course-prepost-slides/
     - name: Deploy
       if: ${{ github.ref_name == 'main' }}

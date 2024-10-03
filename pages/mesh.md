@@ -110,6 +110,23 @@ hideInToc: true
 
 ---
 layout: image-right
+image: img/mesh_refinement.png
+backgroundSize: 95% 70%
+level: 2
+hideInToc: true
+---
+
+# Mesh Taxonomy
+
+- **Structured** : grid-like mesh
+- **UnStructured** : eg. triangular/tetrahedral mesh
+- **Mixte** : combine several type of elements
+- **Hybrid** : combine "meshes" of different dimensions
+
+- **conformal** : vertices are coincidents
+
+---
+layout: image-right
 image: img/ex-arm.png
 backgroundSize: 95% 70%
 level: 2
@@ -123,7 +140,9 @@ hideInToc: true
 - **Mixte** : combine several type of elements
 - **Hybrid** : combine "meshes" of different dimensions
 
-- **[non]conformal** : vertices are [not] coincidents
+- **non-conformal** : vertices are not coincidents
+  - hanging nodes: [deal.II](https://dealii.org/developer/doxygen/deal.II/code_gallery_advection_reaction_estimator.html)
+  - mortar elements: [freefem++](https://doc.freefem.org/introduction/index.html)
 
 
 ---

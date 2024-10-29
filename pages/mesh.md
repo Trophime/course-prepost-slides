@@ -153,17 +153,17 @@ level: 2
 
 - 🔲 Structured Mesh
   - grid-like
-  - elevation/rotation ( ⚠️ rotation may lead to **mixte* * mesh )
+  - elevation/rotation ( ⚠️ rotation may lead to **mixte** mesh )
 
 - 🔗 [UnStructured Mesh (Triangle/Tetrahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf): 
-  - QuadTree / Octree
+  - (QuadTree / Octree)[https://annabellecollin.perso.math.cnrs.fr/teaching/Courses/Maillage/Cours.pdf]
   - Front
   - Delaunay
 
 - 🔗 [UnStructured Mesh (Quad/Hexahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux2.pdf): 
 
 <!-- notes -->
-📓 next slides: ©️  F. Ledoux (CEA)
+📓 next slides: ©️  F. Ledoux (CEA), ©️  A. Collin (Enseirb-Matmeca)
 
 🎉 Order of magnitude to recall 1 billion tetra per minute 🎉
 

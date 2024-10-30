@@ -344,3 +344,10 @@ hideInToc: false
 ---
 
 # Moving / Deformable Mesh
+
+* Simplest approach:
+  * Update mesh vertices coordinates
+  * Check Mesh
+
+* Advanced approach:
+  * see [mmg](https://www.mmgtools.org/mmg-remesher-try-mmg/mmg-remesher-tutorials/mmg-remesher-mmg2d/lagrangian-motion)

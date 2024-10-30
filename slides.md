@@ -145,6 +145,7 @@ hide: false
 ---
 layout: center
 class: text-center
+hideInToc: true
 ---
 
 # Learn More

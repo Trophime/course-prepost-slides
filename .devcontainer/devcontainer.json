@@ -1,5 +1,5 @@
 {
-	"name": "Gmsh Tuto Slides",
+	"name": "Course PrePost Slides",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -9,10 +9,10 @@
 		"seccomp=unconfined",
 		"--net",
 		"host",
-                "-e",
-                "DISPLAY=${env:DISPLAY}",
-                "-v",
-                "/tmp/.X11-unix:/tmp/.X11-unix"
+		"-e",
+		"DISPLAY=${env:DISPLAY}",
+		"-v",
+		"/tmp/.X11-unix:/tmp/.X11-unix"
 	],
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"customizations": {

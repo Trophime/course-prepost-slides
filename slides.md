@@ -24,6 +24,7 @@ mdc: true
 remoteAssets: false
 # controls whether texts in slides are selectable
 selectable: true
+hideInToc: true
 ---
 
 # PrePost Processing for Scientific Computing
@@ -56,13 +57,13 @@ layout: two-cols
 layoutClass: gap-16
 transition: fade-out
 src: ./pages/intro.md
-hideInToc: false
+hideInToc: true
 ---
 
 ---
 transition: slide-up
 src: ./pages/goals.md
-hide: false
+hideInToc: true
 ---
 
 ---
@@ -136,6 +137,10 @@ hide: false
 ---
 
 
+---
+src: ./pages/gaya.md
+hide: false
+---
 
 ---
 layout: center

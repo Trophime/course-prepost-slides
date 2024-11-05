@@ -345,9 +345,15 @@ hideInToc: false
 
 # Moving / Deformable Mesh
 
-* Simplest approach:
+* Naive approach:
   * Update mesh vertices coordinates
   * Check Mesh
 
 * Advanced approach:
+  * Solve an extra PDE (eg. linear elasticity)
+  * Remeshing step
+  * Interpolation
+
+  * ex: ALE, LevelSet
+  * see Frey, Georges Chapter 23
   * see [mmg](https://www.mmgtools.org/mmg-remesher-try-mmg/mmg-remesher-tutorials/mmg-remesher-mmg2d/lagrangian-motion)

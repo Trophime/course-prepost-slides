@@ -126,7 +126,7 @@ hideInToc: true
 - **Mixte** : combine several type of elements
 - **Hybrid** : combine "meshes" of different dimensions
 
-- **conformal** : vertices are coincidents
+- **Conformal** : vertices are coincidents
 
 ---
 layout: image-right
@@ -143,7 +143,7 @@ hideInToc: true
 - **Mixte** : combine several type of elements
 - **Hybrid** : combine "meshes" of different dimensions
 
-- **non-conformal** : vertices are not coincidents
+- **Non-Conformal** : vertices are not coincidents
   - hanging nodes: [deal.II](https://dealii.org/developer/doxygen/deal.II/code_gallery_advection_reaction_estimator.html)
   - mortar elements: [freefem++](https://doc.freefem.org/introduction/index.html)
 

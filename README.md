@@ -1,4 +1,4 @@
-# Welcome to Gmsh Tutorial slides!
+# Welcome to PrePost Course slides!
 
 To start the slide show:
 

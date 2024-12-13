@@ -159,9 +159,9 @@ level: 2
   - elevation/rotation ( ⚠️ rotation may lead to **mixte** mesh )
 
 - 🔗 [UnStructured Mesh (Triangle/Tetrahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux1.pdf): 
-  - (QuadTree / Octree)[https://annabellecollin.perso.math.cnrs.fr/teaching/Courses/Maillage/Cours.pdf]
+  - QuadTree / Octree
   - Front
-  - Delaunay
+  - [Delaunay](https://annabellecollin.perso.math.cnrs.fr/teaching/Courses/Maillage/Cours.pdf)
 
 - 🔗 [UnStructured Mesh (Quad/Hexahedron)](https://www.ibisc.univ-evry.fr/~serena/ledoux2.pdf): 
 
